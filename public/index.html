@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>خانه‌ی ارواح و فرشته‌ها</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+<h1>خانه‌ی ارواح</h1>
+<div class="repo">
+<input id="url" value="https://github.com/acme/shop-api" aria-label="لینک ریپو" dir="ltr">
+<a class="btn" id="scan" href="#" style="background:var(--grn)">اسکن</a>
+<a class="btn" id="gh" href="https://github.com/acme/shop-api" target="_blank" rel="noopener">گیت‌هاب</a>
+</div>
+</header>
+<div class="mut" id="src"><span class="badge">داده‌ی نمایشی</span> اسکن ریپوی واقعی فقط توی نسخه‌ی ترموکس کار می‌کنه.</div>
+
+<main class="grid">
+<section class="stg"><div id="stage"></div><div class="lg" id="chips"></div></section>
+<section class="card dc">
+<div class="tb"><button class="on" data-p="det">جزئیات</button><button data-p="dep">وابستگی‌ها</button></div>
+<div class="pane" id="det"></div>
+<div class="pane" id="dep" hidden></div>
+</section>
+<section class="card sts"><div class="g" id="stats"></div><div class="bar"><i id="hb"></i></div><div class="mut" id="ci"></div></section>
+</main>
+
+<section class="card">
+<div class="tb"><button class="on" data-p="p-pbs">باگ‌ها</button><button data-p="p-tree">فایل‌ها</button><!--srv--><button data-p="p-hot">نقاط داغ</button><button data-p="p-hist">تاریخچه</button><button data-p="p-gh">گیت‌هاب</button><!--/srv--></div>
+<div class="pane" id="p-pbs"><div id="pbs"></div></div>
+<div class="pane" id="p-tree" hidden><div class="tree" id="tree"></div></div>
+<!--srv-->
+<div class="pane" id="p-hot" hidden><div id="hot" class="mut">بعد از اسکن یه ریپوی گیت‌هاب نشون داده می‌شه. فایل‌هایی که پیچیدگی و TODO بیشتری دارن داغ‌ترن.</div></div>
+<div class="pane" id="p-hist" hidden><div id="hist" class="mut">هنوز اسکنی ذخیره نشده.</div></div>
+<div class="pane" id="p-gh" hidden>
+<div class="repo"><input id="tok" type="password" dir="ltr" placeholder="ghp_… توکن شخصی"><a class="btn" id="svt" href="#">ذخیره</a></div>
+<div class="mut" id="tmsg" style="margin:6px 0">توکن فقط توی دیتابیس همین دستگاه ذخیره می‌شه (دسترسی read کافیه).</div>
+<div class="lg" id="rl"></div>
+</div>
+<!--/srv-->
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="app.js"></script>
+<script src="extra.js"></script>
+</body>
+</html>
