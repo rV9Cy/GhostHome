@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" width="96" height="96" role="img" aria-label="Ghost House logo">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#6d4fd8"/><stop offset="1" stop-color="#ff8fa3"/></linearGradient></defs>
+<rect width="96" height="96" rx="22" fill="url(#g)"/>
+<g transform="translate(48,52) scale(.62)">
+<path d="M-44,52 C-48,10 -46,-34 -22,-52 C-8,-62 8,-62 22,-52 C46,-34 48,10 44,52 Q36,62 28,52 Q20,42 12,52 Q4,62 -4,52 Q-12,42 -20,52 Q-28,62 -36,52 Q-40,58 -44,52 Z" fill="#fff"/>
+<ellipse cx="-52" cy="10" rx="9" ry="17" transform="rotate(28 -52 10)" fill="#fff"/><ellipse cx="52" cy="10" rx="9" ry="17" transform="rotate(-28 52 10)" fill="#fff"/>
+<ellipse cx="-14" cy="-20" rx="5.5" ry="8.5" fill="#23233a"/><ellipse cx="14" cy="-20" rx="5.5" ry="8.5" fill="#23233a"/>
+<circle cx="-27" cy="-3" r="6" fill="#ff9db1" opacity=".7"/><circle cx="27" cy="-3" r="6" fill="#ff9db1" opacity=".7"/>
+<path d="M-6,-3 Q0,4 6,-3" stroke="#23233a" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+<ellipse cx="0" cy="-72" rx="24" ry="7" fill="none" stroke="#ffd166" stroke-width="6"/>
+</g>
+</svg>
